@@ -14,9 +14,9 @@ clock = pygame.time.Clock()
 
 bg_position = [0, 0]
 # Image from http://ProgramArcadeGames
-bg_image = pygame.image.load("saturn_family1.jpg").convert()
+bg_image = pygame.image.load("image.jpg").convert()
 player_image = pygame.image.load("player.png").convert()
-player_image.set_colorkey(BLACK)
+# player_image.set_colorkey(BLACK)
 
 # click_sound = pygame.mixer.Sound('./laser5.ogg')
 
